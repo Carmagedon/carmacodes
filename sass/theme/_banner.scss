@@ -1,0 +1,173 @@
+
+.webp #banner
+{
+  background-image: url("/wp-content/uploads/carma.webp");
+}
+.no-webp #banner
+{
+  background-image: url("/wp-content/uploads/carma.jpg");
+}
+#banner {
+  background-image: url("/wp-content/uploads/carma.webp");
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 1199.98px) {
+    background-position: left;
+    background-size: cover;
+  }
+  @media (max-width: 991.98px) {
+    background-position: left;
+    background-size: cover;
+    align-items: flex-end;
+  }
+  @media (max-width: 767.98px) {
+    align-items: flex-end;
+    background-position: left;
+    background-size: cover;
+  }
+  @media (max-width: 575.98px) {
+    align-items: flex-end;
+    background-position: left;
+    background-size: cover;
+  }
+
+  .carma__banner {
+    @media (max-width: 991.98px) {
+      margin-bottom: 15vh;
+    }
+    @media (max-width: 767.98px) {
+      margin-bottom: 15vh;
+    }
+    @media (max-width: 575.98px) {
+    // margin-bottom: 120px;
+      margin-bottom: 15vh;
+    }
+    &-wrapper
+    {
+      &__links {
+        a
+        {
+          padding: 0px 80px 0px 30px;
+          margin-right: 15px;
+          @media (max-width: 767.98px) {
+            margin-right: 10px;
+          }
+          @media (max-width: 991.98px) {
+            padding: 0px 20px 0px 20px;
+            flex: 1;
+          }
+          @media (max-width: 767.98px) {
+            padding: 0px 10px 0px 10px;
+            flex: 1;
+          }
+          @media (max-width: 575.98px) {
+            padding: 0px 10px 0px 10px;
+            flex: 1;
+            font-size: 15px;
+          }
+        }
+        a.last-link
+        {
+          @media (max-width: 575.98px) {
+            margin-right: 0;
+          }
+        }
+        @media (max-width: 991.98px) {
+          display: flex;
+          flex-direction: row;
+        }
+        @media (max-width: 767.98px) {
+          display: flex;
+          flex-direction: row;
+        }
+        @media (max-width: 575.98px) {
+          display: flex;
+          flex-direction: row;
+        }
+      }
+      &__text {
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        display: inline-flex;
+        align-items: center;
+        background-color: #dd1717;
+        color: #fff;
+        height: 50px;
+        font-weight: 600;
+        padding: 8px 100px 8px 30px;
+        margin-bottom: 15px;
+        @media (max-width: 991.98px) {
+          margin-bottom: 10px;
+          width: 100%;
+          height: auto;
+          margin-bottom: 10px;
+          padding: 10px 20px;
+          width: 100%;
+        }
+        @media (max-width: 767.98px) {
+          margin-bottom: 10px;
+          width: 100%;
+          height: auto;
+          margin-bottom: 10px;
+          padding: 10px 20px;
+          width: 100%;
+        }
+        @media (max-width: 575.98px) {
+          padding: 10px;
+          font-size: 20px;
+          line-height: 22px;
+          height: auto;
+          margin-bottom: 10px;
+          width: 100%;
+        }
+      }
+      &__headline {
+        margin-bottom: 20px;
+        @media (max-width: 1199.98px) {
+
+        }
+        @media (max-width: 991.98px) {
+          padding: 20px;
+          background-color: #0d0e0e;
+          margin-bottom: 10px;
+        }
+        @media (max-width: 767.98px) {
+          background-color: #0d0e0e;
+          margin-bottom: 10px;
+        }
+        @media (max-width: 575.98px) {
+          padding: 10px;
+          background-color: #0d0e0e;
+          margin-bottom: 10px;
+        }
+        p {
+          margin: 0;
+          white-space: nowrap;
+          font-size: 98px;
+          line-height: 98px;
+          font-weight: 500;
+          color: #0d0e0e;
+          //background-color: rgb(255, 255, 255);
+          margin: 0px;
+          padding: 0px;
+          letter-spacing: 0px;
+          @media (max-width: 991.98px) {
+            color: #fff;
+          }
+          @media (max-width: 575.98px) {
+            font-size: 40px;
+            line-height: 40px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

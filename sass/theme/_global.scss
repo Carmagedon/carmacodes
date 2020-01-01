@@ -1,0 +1,110 @@
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#wpadminbar
+{
+  display: none;
+}
+.no-border
+{
+  border: none !important;
+}
+.balance-text {
+  text-wrap: balance;
+}
+.d-flex
+{
+  display: flex !important;
+}
+.align-items-center
+{
+  align-items: center !important;
+}
+.justify-content-center
+{
+  justify-content: center !important;
+}
+.text-right
+{
+  text-align: right !important;
+}
+.text-left
+{
+  text-align: left !important;
+}
+.text-center
+{
+  text-align: center !important;
+}
+a
+{
+  color: #dd1717;
+  text-decoration: none;
+}
+a:hover,
+a:visited,
+a:focus
+{
+  color:darken( #dd1717, 15% );
+  text-decoration: none;
+}
+
+header, main, footer {
+  margin-left: 300px;
+  @media only screen and (max-width : 992px) {
+    margin-left: 0;
+  }
+}
+
+.section
+{
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  @media (max-width: 1500px)
+  {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  @media (max-width:992px)
+  {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  @media (max-width: 767.98px)
+  {
+   padding: 30px;
+  }
+}
+
+.carma__headline h1
+{
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  &:before
+  {
+    border-bottom: 4px solid #dd1717;
+    content: "";
+    left: -20px;
+    position: absolute;
+    top: 15px;
+    width: 12px;
+  }
+}
+.error-404 .page-content
+{
+  font-size: 150px;
+  font-weight: 700;
+  text-align: center;
+  padding: 250px 0;
+}
+

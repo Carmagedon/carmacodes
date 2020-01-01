@@ -1,0 +1,43 @@
+.carma__gallery
+{
+  &-item
+  {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+  &-item > img
+  {
+    border: 1px solid #212529;
+  }
+  &-item &-poster {
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
+    margin: 15px;
+  }
+  &-item &-poster > img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+  }
+  &-item:hover &-poster {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  &-item:hover &-poster > img
+  {
+    opacity: 1;
+  }
+}
