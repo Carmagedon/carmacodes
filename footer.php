@@ -29,10 +29,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <p><strong>Ing. Andrej Szabo</strong></p>
                 <ul class="page-footer__links">
                     <li class="">
-                        <a class="" href="mailto:andrej.szabo@gmail.com"><i class="tiny material-icons">mail</i>&nbsp;andrej.szabo@gmail.com</a>
+                        <a class="" href="mailto:andrej.szabo@gmail.com">andrej.szabo@gmail.com</a>
                     </li>
                     <li>
-                        <a class="" href="tel:+421908869979"><i class="tiny material-icons">local_phone</i>&nbsp;+421 908 869 979</a>
+                        <a class="" href="tel:+421908869979">+421 908 869 979</a>
                     </li>
 
                 </ul>

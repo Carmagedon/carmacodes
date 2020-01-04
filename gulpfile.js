@@ -76,7 +76,7 @@ gulp.task( 'styles', function( callback ) {
 
 gulp.task( 'scripts', function() {
     var scripts = [
-        paths.dev + '/js/jquery-3.4.1.slim.js',
+        paths.dev + '/js/jquery-3.4.1.js',
         paths.dev + '/js/isotope.js',
         paths.dev + '/js/balancetext.js',
         paths.dev + '/js/materialize-css/materialize.js',

@@ -78,6 +78,10 @@ header .mobile-menu
       .mobile-menu__item.mobile-menu__item-active
       {
         color:#dd1717;
+        svg
+        {
+          fill: #dd1717;
+        }
       }
     }
   }

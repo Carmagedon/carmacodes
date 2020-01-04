@@ -212,9 +212,9 @@ get_header();
 							    'post_type'              => array( 'portfolio' ),
 							    'post_status'            => array( 'publish' ),
 							    'posts_per_page'   => -1,
-							    'meta_key' => 'year_text',
+							   /* 'meta_key' => 'year_text',
 							    'orderby' => 'meta_value_num',
-							    'order' => 'DESC'
+							    'order' => 'DESC'*/
 						    );
 
 						    // The Query
@@ -313,7 +313,6 @@ get_header();
                                     <div class="col-12 col-sm-9">
                                         <div class="contact-form-response z-depth-1">
                                             <span class="chip-text"></span>
-                                            <i class="close material-icons">close</i>
                                         </div>
                                     </div>
                                 </div>
